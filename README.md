@@ -147,7 +147,3 @@ Make sure to:
 - Input validation and sanitization
 - Rate limiting recommended for production
 - Regular security audits recommended
-
-## License
-
-MIT License - feel free to use for personal or commercial projects.
