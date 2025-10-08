@@ -1,44 +1,43 @@
-# 🚀 PASSWORD VAULT - SUBMISSION PACKAGE
+#  PASSWORD VAULT - SUBMISSION PACKAGE
 
-## 📊 PROJECT SUMMARY
+## PROJECT SUMMARY
 
-**Student**: [Your Name]
+**Student**: B.Amrutha
 **Project**: Password Vault - Secure Password Manager
 **Technology Stack**: Next.js 14, TypeScript, MongoDB, JWT, CryptoJS
-**Completion Status**: 100% Complete ✅
 
-## 🎯 ASSIGNMENT REQUIREMENTS FULFILLED
+##  ASSIGNMENT REQUIREMENTS FULFILLED
 
-### ✅ MUST-HAVE FEATURES COMPLETED
-1. **Password Generator** ✅
+###  MUST-HAVE FEATURES COMPLETED
+1. **Password Generator** 
    - Customizable length (4-50 characters)
    - Character set options (uppercase, lowercase, numbers, symbols)
    - Exclude similar characters option
    - Real-time strength indicator
 
-2. **User Authentication** ✅
+2. **User Authentication** 
    - Email/password registration and login
    - JWT token-based authentication
    - Secure session management
    - bcrypt password hashing
 
-3. **Vault Management** ✅
+3. **Vault Management** 
    - Add/edit/delete password entries
    - Title, username, password, URL, notes, tags
    - Search and filter functionality
    - Encrypted data storage
 
-4. **Client-side Encryption** ✅
+4. **Client-side Encryption** 
    - **Library Used**: CryptoJS (AES-256 encryption)
    - All sensitive data encrypted before transmission
    - Server never sees plaintext passwords
 
-5. **Copy to Clipboard** ✅
+5. **Copy to Clipboard** 
    - One-click password copying
    - Auto-clear after 15 seconds
    - Visual feedback on copy
 
-## 🔐 CRYPTO IMPLEMENTATION EXPLANATION
+##  CRYPTO IMPLEMENTATION EXPLANATION
 
 **Library Chosen**: CryptoJS
 
@@ -54,7 +53,7 @@
 - Encryption key managed through environment variables
 - Individual field encryption for granular security
 
-## 📁 PROJECT STRUCTURE
+##  PROJECT STRUCTURE
 
 ```
 password-vault/
@@ -77,7 +76,7 @@ password-vault/
 └── .env.local                    # Environment variables
 ```
 
-## 🌐 LIVE DEMO
+##  LIVE DEMO
 
 **Local Development**: http://localhost:3000
 **Features Demonstrated**:
@@ -87,7 +86,7 @@ password-vault/
 - Search and filter functionality
 - Clipboard operations with auto-clear
 
-## 🛡️ SECURITY FEATURES
+##  SECURITY FEATURES
 
 - Client-side AES-256 encryption
 - JWT authentication with HTTP-only cookies
@@ -111,5 +110,6 @@ This password vault application:
 - ✅ Implements modern security practices
 - ✅ Provides excellent user experience
 - ✅ Ready for production deployment
+
 
 **Grade Expectation**: A/Excellent
